@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <select name="" id="" class="select-exercises">
+          <option value="pushups">push ups</option>
+          <option value="squats">squats</option>
+          <option value="handsPushups">hands pushups</option>
+        </select>
+        <input min="0" type="number" placeholder="number" class="input-number" />
+        <!-- <input type="date"> -->
+        <button class="undo-btn">Undo</button>
+        <input type="submit" class="input-submit" />
+      </form>
+
+      <p>Total <span class="total-name pushups">push ups:</span> <span class="total-number pushups">0</span></p>
+      <p>Total <span class="total-name squats">squats:</span> <span class="total-number squats">0</span></p>
+      <ul class="excercises-result-list"></ul>
+      <button class="reset-btn">Reset</button>
+    </div>
+    <div>
+      <form>
+        <input class="goal-number-input" type="number" placeholder="set goal number">
+        <label>
+          Select excercise
+          <select name="" id="" class="select-exercises-goal">
+            <option value="pushups">push ups</option>
+            <option value="squats">squats</option>
+            <option value="handsPushups">hands pushups</option>
+          </select>
+        </label>
+        <label>Due date:
+          <input class="goal-due-date" type="date">
+        </label>
+        <button class="submit-goal-btn">Submit goal</button>
+      </form>
+
+      <h1>Goal:</h1>
+      <!-- <p>Excercise: <span class="excercise-goal-wrapper"></span></p>
+      <p>Quantity: <span class="quantity-goal-wrapper"></span></p>
+      <p>Due date: <span class="quantity-goal-due"></span></p> -->
+      <ul class="goal-list">
+        
+      </ul>
+    </div>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
